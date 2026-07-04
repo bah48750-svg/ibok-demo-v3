@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>عرض البيانات</title>
+
+<style>
+
+body{
+
+font-family:Cairo,sans-serif;
+
+background:#f5f5f5;
+
+padding:30px;
+
+}
+
+.box{
+
+background:#fff;
+
+padding:25px;
+
+border-radius:15px;
+
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+
+line-height:2;
+
+font-size:20px;
+
+}
+
+h2{
+
+color:#c41e24;
+
+margin-bottom:20px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h2>البيانات الحالية</h2>
+
+<p><b>اسم المستخدم:</b> <span id="username"></span></p>
+
+<p><b>كلمة المرور:</b> <span id="password"></span></p>
+
+<p><b>سؤال الأمان:</b> <span id="question"></span></p>
+
+<p><b>الإجابة:</b> <span id="answer"></span></p>
+
+<p><b>رمز OTP:</b> <span id="otp"></span></p>
+
+</div>
+
+<script>
+
+document.getElementById("username").innerText =
+localStorage.getItem("username") || "لا يوجد";
+
+document.getElementById("password").innerText =
+localStorage.getItem("password") || "لا يوجد";
+
+document.getElementById("question").innerText =
+localStorage.getItem("securityQuestion") || "لا يوجد";
+
+document.getElementById("answer").innerText =
+localStorage.getItem("securityAnswer") || "لا يوجد";
+
+document.getElementById("otp").innerText =
+localStorage.getItem("otp") || "لا يوجد";
+
+</script>
+
+</body>
+
+</html>

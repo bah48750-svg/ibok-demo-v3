@@ -1,0 +1,23 @@
+<p>اسم المستخدم: <span id="user"></span></p>
+
+<p>كلمة المرور: <span id="pass"></span></p>
+
+<p>السؤال: <span id="question"></span></p>
+
+<p>الإجابة: <span id="answer"></span></p>
+
+<script>
+
+document.getElementById("user").innerText =
+localStorage.getItem("username");
+
+document.getElementById("pass").innerText =
+localStorage.getItem("password");
+
+document.getElementById("question").innerText =
+localStorage.getItem("securityQuestion");
+
+document.getElementById("answer").innerText =
+localStorage.getItem("securityAnswer");
+
+</script>
