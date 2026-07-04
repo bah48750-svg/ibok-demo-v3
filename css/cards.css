@@ -1,0 +1,101 @@
+/*=========================================
+        HOME SERVICE CARDS
+=========================================*/
+
+.services{
+
+    width:92%;
+
+    max-width:900px;
+
+    margin:0 auto 40px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.card{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:18px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    box-shadow:0 8px 18px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-3px);
+
+}
+
+.icon{
+
+    width:65px;
+
+    height:65px;
+
+    border-radius:50%;
+
+    background:#FDECEC;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-shrink:0;
+
+}
+
+.icon i{
+
+    font-size:28px;
+
+    color:#C41E24;
+
+}
+
+.text{
+
+    flex:1;
+
+}
+
+.text h2{
+
+    color:#C41E24;
+
+    font-size:22px;
+
+    margin-bottom:6px;
+
+    font-weight:700;
+
+}
+
+.text p{
+
+    color:#666;
+
+    font-size:15px;
+
+    line-height:1.8;
+
+}

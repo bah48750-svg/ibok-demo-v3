@@ -1,0 +1,93 @@
+/*=========================================
+        RESPONSIVE
+=========================================*/
+
+@media(max-width:768px){
+
+.top-header{
+
+    height:auto;
+
+    padding:15px;
+
+    flex-direction:column;
+
+    gap:12px;
+
+}
+
+.logo{
+
+    font-size:28px;
+
+}
+
+.service-btn{
+
+    font-size:16px;
+
+}
+
+.hero h1{
+
+    font-size:28px;
+
+}
+
+.hero p{
+
+    font-size:16px;
+
+}
+
+.card{
+
+    padding:15px;
+
+}
+
+.icon{
+
+    width:55px;
+
+    height:55px;
+
+}
+
+.icon i{
+
+    font-size:24px;
+
+}
+
+.text h2{
+
+    font-size:19px;
+
+}
+
+.text p{
+
+    font-size:14px;
+
+}
+
+.service-card h2{
+
+    font-size:24px;
+
+}
+
+.service-card p{
+
+    font-size:15px;
+
+}
+
+.main-btn{
+
+    font-size:16px;
+
+}
+
+}
